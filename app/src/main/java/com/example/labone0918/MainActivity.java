@@ -2,7 +2,6 @@ package com.example.labone0918;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -26,8 +25,5 @@ public class MainActivity extends AppCompatActivity {
                 tvMain.setText("Change text");
             }
         });
-
-        tvMain=(TextView) findViewById(R.id.tvMain);
-        tvMain.setTextColor(Color.MAGENTA);
     }
 }
